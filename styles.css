@@ -82,8 +82,9 @@ body {
   margin: 0;
 }
 
-.link {
-  text-decoration: none;
+#project-h1 {
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .project {
@@ -91,15 +92,25 @@ body {
   border-radius: 10px;
   background-color: #444444;
   margin-bottom: 10px;
+  margin: 2vw;
+}
+
+.project a {
+  text-decoration: none;
 }
 
 .project h3,
 .project p {
-  margin: 10px 5px 0 10px;
+  margin: 1vw;
+}
+
+.project span {
+  font-weight: normal;
 }
 
 @media (max-width: 780px) {
-  .grid {
+  .grid,
+  .grid-3 {
     grid-template-columns: 1fr;
   }
   .section-1 {
