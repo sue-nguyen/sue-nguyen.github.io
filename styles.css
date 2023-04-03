@@ -6,6 +6,10 @@
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 img {
@@ -88,11 +92,13 @@ body {
 }
 
 .project {
-  border: 1px solid #999999;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: #444444;
-  margin-bottom: 10px;
-  margin: 2vw;
+  margin: 5px;
+}
+
+.project:hover {
+  background-color: #686868;
 }
 
 .project a {
