@@ -3,7 +3,13 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.grid-3 {
+.grid-3-skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 0;
+}
+
+.grid-3-projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 60%;
