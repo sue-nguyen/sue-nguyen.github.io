@@ -22,6 +22,7 @@ img {
   margin-top: 10px;
   border-radius: 10px;
   border: 2px solid white;
+  border-radius: 1em;
 }
 
 a {
@@ -31,6 +32,7 @@ a {
 button {
   background-color: white;
   border: 1px solid white;
+  border-radius: 1em;
   color: black;
   padding: 5px 5px;
   margin-top: 10px;
