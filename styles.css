@@ -120,7 +120,7 @@ body {
   font-weight: normal;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 768px) {
   .grid, .grid-3-projects {
     grid-template-columns: 1fr;
   }
@@ -132,6 +132,10 @@ body {
   .section-1 {
     padding: 0;
     padding-top: 5rem;
+  }
+
+  .project h3, .project p {
+    margin: 1em;
   }
   
   .section-2 {
