@@ -121,8 +121,7 @@ body {
 }
 
 @media (max-width: 780px) {
-  .grid,
-  .grid-3 {
+  .grid, .grid-3-projects {
     grid-template-columns: 1fr;
   }
 
